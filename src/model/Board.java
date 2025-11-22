@@ -10,7 +10,7 @@ public class Board {
     public Cell[][] grid;
     public String[] columns = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"};
     public int gameState = 0;
-    public int remaining_attempts = 20;
+    public int remaining_attempts = 30;
 
     public Ship currentShip;
     public Map<String, List<Ship>> shipMap = new HashMap<>();
